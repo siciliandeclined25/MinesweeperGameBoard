@@ -1,0 +1,28 @@
+use array
+start:
+print "Hello";
+var x = 5;
+var y = 10;
+var z = x / 10;
+print x;
+print y;
+print z;
+a = P10;
+b = P12;
+P12 = true;
+P10 = false;
+if P11 is true then
+    print "P11 is true";
+    goto makemine;
+end
+else
+    print "game over!";
+    goto start;
+end;
+makemine:
+    x = 130;
+    y = 0;
+    gdraw MINE;
+    gtext "ee";
+    array 0 = 0;
+    array 1 = 1;
