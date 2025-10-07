@@ -1,3 +1,1 @@
-print string "hi!";
-print string "let's play a game";
-var string1 = "hello";
+var number a = -2567;
