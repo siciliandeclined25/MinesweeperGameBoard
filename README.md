@@ -1,5 +1,5 @@
 # MinesweeperGameBoard
-This is the main repository for the IEEE Minesweeper Game Board Project.
+This is a fork of Minsweeper Game Board implementing the first step
 
 ## Meetings
 **Wednesdays from 4:00 PM - 5:00 PM in Eaton 3010**
