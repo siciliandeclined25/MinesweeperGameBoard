@@ -143,9 +143,9 @@ terminate
 - labels are just pointers. the code inside labels will be run if the program counter encounters them. recommended practice is to put labels near the end of your program.
 ```
 start:
-var x = 0;
-var y = 1;
-var a = 10;
+var number x = 0;
+var number y = 1;
+var number a = 10;
 print "let's calc fib numbers"
 --a;
 if a == 0 then;
@@ -155,9 +155,9 @@ else;
     goto calc;
 
 calc:
-var s = x + y; #our sum
-var x = y;
-var y = s;
+var number = x + y; #our sum
+var number x = y;
+var number y = s;
 goto start;
 
 last:
