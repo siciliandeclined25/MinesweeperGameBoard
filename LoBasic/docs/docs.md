@@ -57,6 +57,13 @@ var string string1 = "hello";
 var array 10 = 125;
 var pin 3 = true;
 ```
+**var is var**
+- sets a variable equal to the value in another value (strings, ints, arrays
+```
+var number a = 10;
+var number b = 4;
+var a is b;
+```
 **evar**
 - declares a value into the EEPROM of the Arduino (1 bit int only)
 - can be accessed/declared later
@@ -68,7 +75,7 @@ evar 1 = 10;
 - lobasic supports ++ and -- operators such as C++ and C that deincrement or reincrement the value
 - an added syntaxical benefit is the by operator will make it de/increment the increment value
 ```
-var a = 10;
+var number a = 10;
 --a;
 #a = 9 now;
 --a by 2;
@@ -77,6 +84,20 @@ var a = 10;
 # a = 8;
 ++a by 5;
 # a = 13;
+```
+**int multiply, divide, rdivide**
+- divides and multiplies a 32 bit integer a-z
+- will assume unrounded unless ridivde is specified
+```
+var number a = 10;
+#a = 10;
+multiply a by 3;
+#a = 30;
+divide a by 3;
+#a = 10
+rdivide a by 3;
+#a is now 3;
+
 ```
 
 **if then blocks**
